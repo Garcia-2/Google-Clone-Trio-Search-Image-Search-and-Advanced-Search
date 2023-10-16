@@ -1,0 +1,316 @@
+body, input, button {
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+.Search { 
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.Search form {
+    text-align: center; /* Center-align the form content */
+}
+
+.Search input[type="text"] {
+    flex: 1; /* Take up available space within the container */
+    padding: 10px; /* Increase padding for better spacing */
+    border: none; /* Remove the border on the input field */
+    align-items: center; /* Center the content vertically */
+    border-radius: 24px; /* Add rounded corners */
+    outline: none; /* Remove the default focus outline */
+    min-height: 30px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 638px; /* Initial width */
+    max-width: 584px;
+    margin-bottom: 20px;
+}
+
+/*.Search input[type="submit"] {
+    padding: 12px 24px; /* Increase padding to make it bigger
+    border: none;
+    outline: none;
+    align-items: center;  Center the content vertically 
+    border-radius: 24px; /* Add rounded corners 
+    background-color: #4EB2E8; /* Light blue background color
+    color: #fff; /* Text color 
+    cursor: pointer;  Show a pointer cursor on hover 
+    transition: background-color 0.3s;  Smooth transition on hover 
+}*/
+
+nav {
+    text-align: right; /* Align the items to the left */
+    padding: 20px 0; /* Add spacing between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove the underline */
+    color: #4EB2E8; /* Set the text color to light blue */
+    margin-right: 10px; /* Add spacing between items */
+}
+
+/*nav a:last-child {
+    margin-right: 5px; /* Remove spacing after the last item 
+}*/
+
+div.container {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: arial,sans-serif;
+}
+
+form {
+    display: block;
+}
+
+html, body, div, a, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.ot {
+    width: 100%;
+    clear: both;
+}
+
+div.ot div.yI {
+    clear: both;
+}
+
+div.ot div.FA {
+    float: left;
+    /*display: inline-block;*/
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+div.LO {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+label {
+    cursor: default;
+}
+
+div.ot div.jY {
+    float: left;
+    /*display: inline-block;*/
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+div.PL {
+    padding-right: 16px;
+}
+
+.jfk {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+
+    width: 102%;
+}
+
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+}
+
+div.ot div.cw {
+    float: left;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+div.ot div.cw span.BF {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+div.ot div.I1{
+    float: left;
+    /*display: inline-block;*/
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+
+div.ot div.Ho {
+    float: left;
+    /*display: inline-block;*/
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+div.ot div.or {
+    float: left;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+div.otByu div.jYcx0e input[type=text] {
+    width: 100%;
+    text-align: left;
+}
+
+div.Qy {
+    margin: 18px 0;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+div.ot div.yI input.dU {
+    float: right;
+    margin: 10px 0;
+}
+
+input.dU {
+    padding: 0 12px;
+}
+
+.jfk-button-action {
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.jfk-button {
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    outline: 0;
+}
+
+input[type="submit" i] {
+    appearance: auto;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px;
+    align-items: flex-start;
+}
+
+.bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.gy {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.lucky {
+    padding-top: 18px;
+}
+
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.finder, .feeling {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    /*transition: border 0.1s;  /*Add a smooth transition for the border property */
+}
+
+.finder:hover, .feeling:hover {
+    border: 2px solid #f3f3f3; /* Add a black border when hovering */
+}
