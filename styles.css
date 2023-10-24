@@ -33,18 +33,6 @@ body, input, button {
     margin-bottom: 20px;
 }
 
-/*.Search input[type="submit"] {
-    padding: 12px 24px; /* Increase padding to make it bigger
-    border: none;
-    outline: none;
-    align-items: center;  Center the content vertically 
-    border-radius: 24px; /* Add rounded corners 
-    background-color: #4EB2E8; /* Light blue background color
-    color: #fff; /* Text color 
-    cursor: pointer;  Show a pointer cursor on hover 
-    transition: background-color 0.3s;  Smooth transition on hover 
-}*/
-
 nav {
     text-align: right; /* Align the items to the left */
     padding: 20px 0; /* Add spacing between items */
@@ -55,10 +43,6 @@ nav a {
     color: #4EB2E8; /* Set the text color to light blue */
     margin-right: 10px; /* Add spacing between items */
 }
-
-/*nav a:last-child {
-    margin-right: 5px; /* Remove spacing after the last item 
-}*/
 
 div.container {
     max-width: 1140px;
@@ -101,7 +85,6 @@ div.ot div.yI {
 
 div.ot div.FA {
     float: left;
-    /*display: inline-block;*/
     min-width: 167px;
     width: 16%;
     height: 42px;
@@ -123,7 +106,6 @@ label {
 
 div.ot div.jY {
     float: left;
-    /*display: inline-block;*/
     min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
@@ -190,7 +172,6 @@ div.ot div.cw span.BF {
 
 div.ot div.I1{
     float: left;
-    /*display: inline-block;*/
     min-width: 167px;
     width: 16%;
     font-size: 16px;
@@ -202,7 +183,6 @@ div.ot div.I1{
 
 div.ot div.Ho {
     float: left;
-    /*display: inline-block;*/
     min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
@@ -308,9 +288,8 @@ center {
     text-align: center;
     cursor: pointer;
     user-select: none;
-    /*transition: border 0.1s;  /*Add a smooth transition for the border property */
 }
 
 .finder:hover, .feeling:hover {
-    border: 2px solid #f3f3f3; /* Add a black border when hovering */
+    border: 2px solid #f3f3f3;
 }
